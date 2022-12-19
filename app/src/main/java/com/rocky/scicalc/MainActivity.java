@@ -53,27 +53,27 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate (savedInstanceState);
         setContentView (R.layout.activity_main);
-        Button btn0 = (Button) findViewById (R.id.btn0);
-        Button btn1 = (Button) findViewById (R.id.btn1);
-        Button btn2 = (Button) findViewById (R.id.btn2);
-        Button btn3 = (Button) findViewById (R.id.btn3);
-        Button btn4 = (Button) findViewById (R.id.btn4);
-        Button btn5 = (Button) findViewById (R.id.btn5);
-        Button btn6 = (Button) findViewById (R.id.btn6);
-        Button btn7 = (Button) findViewById (R.id.btn7);
-        Button btn8 = (Button) findViewById (R.id.btn8);
-        Button btn9 = (Button) findViewById (R.id.btn9);
-        Button btnAdd = (Button) findViewById (R.id.btnAdd);
-        Button btnSub = (Button) findViewById (R.id.btnSub);
-        Button btnMul = (Button) findViewById (R.id.btnMul);
-        Button btnDiv = (Button) findViewById (R.id.btnDiv);
-        Button btnPoint = (Button) findViewById (R.id.btnpoint);
-        Button btnAdv = (Button) findViewById (R.id.btnAdv);
-        Button btnmod = (Button) findViewById (R.id.btnmod);
-        Button btnClear = (Button) findViewById (R.id.btnClear);
-        Button btnReset = (Button) findViewById (R.id.btnReset);
-        Button btnresult = (Button) findViewById (R.id.btnresult);
-        editText = (EditText)findViewById (R.id.editText);
+        Button btn0 = findViewById (R.id.btn0);
+        Button btn1 = findViewById (R.id.btn1);
+        Button btn2 = findViewById (R.id.btn2);
+        Button btn3 = findViewById (R.id.btn3);
+        Button btn4 = findViewById (R.id.btn4);
+        Button btn5 = findViewById (R.id.btn5);
+        Button btn6 = findViewById (R.id.btn6);
+        Button btn7 = findViewById (R.id.btn7);
+        Button btn8 = findViewById (R.id.btn8);
+        Button btn9 = findViewById (R.id.btn9);
+        Button btnAdd = findViewById (R.id.btnAdd);
+        Button btnSub = findViewById (R.id.btnSub);
+        Button btnMul = findViewById (R.id.btnMul);
+        Button btnDiv = findViewById (R.id.btnDiv);
+        Button btnPoint = findViewById (R.id.btnpoint);
+        Button btnAdv = findViewById (R.id.btnAdv);
+        Button btnmod = findViewById (R.id.btnmod);
+        Button btnClear = findViewById (R.id.btnClear);
+        Button btnReset = findViewById (R.id.btnReset);
+        Button btnresult = findViewById (R.id.btnresult);
+        editText = findViewById (R.id.editText);
 
 
         btn1.setOnClickListener (v -> editText.setText (editText.getText ()+ "1"));
